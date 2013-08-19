@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Times New Roman;
+}
+
+
+#game {
+	width:640px;
+   	height:400px;
+	padding: 2px;
+    background-color: black;
+    color: white;
+}
+
+#intro {
+    position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	text-align: center;
+}
+
+#intro button{
+    min-width: 49%;
+    font-size: 30px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#rpg, #choice {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #aaf;
+    text-align: left;
+}
+
+#fight, #choice {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+#fight {
+    background-color: #222;
+}
+
+#choice-question {
+    font-weight: bold;
+    color: #aaf;
+}
+
+#choice-options {
+    padding-top: 40px;
+}
+
+.next-option {
+    width: 300px;
+    height: 40px;
+    background-color: #77f;
+    color: white;
+    border: 2px solid black;
+    display: block;
+    font-size: 20px;
+    /*border-radius: 5px;*/
+    margin: 5px auto; 
+}
+.next-option:hover {
+    background-color: #44a;
+}
+.next-option:ctive {
+    background-color: #225;
+}
+
+#fight-options {
+    width: 600px; /* 640 - 20*2 */
+    height: 100px;
+    background-color: #700;
+    color: white;
+    font-family: Courier New, monospace;
+    font-size: 20px;
+    opacity: 0.5;
+    bottom: 10px;
+    padding: 10px;
+    left: 10px;
+    position: absolute;
+    z-index:100px;
+}
+
+button[class^="fight-"] {
+    background-color: black;
+    color: white;
+    width: 50%;
+    font-size: 20px;
+}
+
+.id-my-name, .id-my-health, .id-enemy-health, .id-enemy-name {
+    font-size: 25px;
+    font-color: blue;
+    position:absolute;
+}
+
+.id-my-name {
+    top: 0px;
+    left: 0px;
+}
+.id-my-health {
+    top: 0px;
+    left: 100px;
+}
+
+.id-enemy-health {
+    top: 0px;
+    right: 0px;
+}
+
+.id-enemy-name {
+    top:0px;
+    right: 100px;
+}
+.text-box {
+    width: 600px; /* 640 - 20*2 */
+    height: 100px;
+    color: white;
+    font-family: Courier New, monospace;
+    font-size: 20px;
+    bottom: 10px;
+    padding: 10px;
+    left: 10px;
+    position: absolute;
+    z-index:100;
+
+}
+#rpg-text {
+    background-color: #44f;
+}
+#choice-text {
+    background-color: #44f;
+}
+
+.id-next-button, .id-fight-next-button {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    min-width: 4em;
+    color: white;
+    background-color: black;
+    opacity: 1;
+    z-index: 9000;
+}
+.white {
+	color: white;
+}
+
+
+.green-btn {
+    background-color: #060;
+    color: white;
+    border: 1px solid #030;
+}
+.grey-btn {
+    background-color: #333;
+    color: white;
+    border: 1px solid #111;
+
+}

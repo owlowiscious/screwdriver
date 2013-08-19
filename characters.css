@@ -1,0 +1,45 @@
+.character{ 
+    width: 320px;
+    height: 400px;
+    position: absolute;
+}
+
+.character.kuma {
+    background-image: url("im/kuma.png");
+    right:0px;
+    top:0px;
+}
+
+.character.piano {
+    background-image: url("im/piano.png");
+    right:0px;
+    top:0px;
+}
+
+
+.character.derpy {
+    background-image: url("im/derpy.png");
+    left:0px;
+    top:0px;
+}
+
+.character.villain {
+    background-image: url("im/villain.png");
+    right: 0px;
+    top: 0px;
+}
+.character.pinkie {
+    background-image: url("im/pinkie.png");
+    left: 0px;
+    top: 0px;
+}
+.character.twilight {
+    background-image: url("im/twilight.png");
+    left: 0px;
+    top: 0px;
+}
+.character.applejack {
+    background-image: url("im/applejack.png");
+    left: 0px;
+    top: 0px;
+}
