@@ -13,6 +13,7 @@ It still needs a proper ending, and character stats, levels, etc.
 TODOS
 ------
 
+-   Add images of twilight/applejack
 -   artwork that doesn't suck.
 -   Better animations
 -   a character stat/ inventory system. Currently ad-hoc and can't pick up things

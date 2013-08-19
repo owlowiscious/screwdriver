@@ -45,7 +45,7 @@ engine = new Engine(stateData);
 function restartGame() {
     main.game = $('#game');
     main.charInfo = $.extend(true, {}, BEGINNING_INFO);
-    engine.setState('ponyville');
+    engine.setState('pony_intro');
 }
 
 $(document).on('keypress', function(e) {
